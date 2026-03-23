@@ -21,6 +21,7 @@ fun main() {
     println(countElements(testString))
 
     //task3
+    /** Для чего у тебя два поля items и listItems? Можно оставить одно, то что в конструкторе и работать с ним */
     class Basket<T>(val items: List<T>) {
         val listItems = items.toMutableList()
         fun addItem(newItem :T) {
